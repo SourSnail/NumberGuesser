@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url(images/bkrd.jpg);
+}
+
+#game-container {
+    margin: 300px auto;
+    padding: 20px;
+    border: 8px solid whitesmoke;
+    max-width: 300px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+#instruction {
+    margin-bottom: 10px;
+}
+
+#result {
+    font-weight: bold;
+    color: green;
+}
+button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px; /* Padding for better appearance */
+    border: none; /* Remove border */
+    border-radius: 8px;
+    
+}
+
+button:hover{
+    background-color: midnightblue;
+}
